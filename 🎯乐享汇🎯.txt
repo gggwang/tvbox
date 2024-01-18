@@ -1,0 +1,910 @@
+{
+
+
+ "spider":"https://www.qiqiguai.cn/tv/1/乐享汇/lxhfans1.jar",
+  "wallpaper":"https://api.likepoems.com/img/bing",
+  "warningText":"公众号：乐享汇fans免费分享持续更新，更多详情见公众号文章",
+  "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/live.txt",
+      "playerType": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+     },
+      "epg": "http://api.cntv.cn/epg/epginfo?serviceId=cbox&c={name}&d={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+     }
+     ],
+
+"sites":[
+    {
+      "key": "地瓜妹妹",
+      "name": "🍠地瓜妹妹┃1080P 地瓜影视www.qiqiguai.cn",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.qiqiguai.cn/api.php/app/"
+        },
+    {
+      "key": "玩偶哥哥",
+      "name": "👽玩偶哥哥┃4K弹幕不断流",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "spider": "https://www.qiqiguai.cn/tv/1/乐享汇/spider.jar",
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"
+    },
+	{
+     "key":"DB",
+     "name":"🌎豆瓣|公众号：乐享汇fans免费分享持续更新，更多详情见公众号文章",
+     "type":3,
+     "api":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/drpy.min.js","ext":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/豆瓣.js"
+    },
+    
+    {
+     "key": "csp_KungFu404",
+     "name":"🎦阿狸设置",
+     "type": 3, 
+     "api": "csp_KungFu404", 
+     "searchable":1,
+     "filterable": 0, 
+     "changeable":0,
+     "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/alisz.jar"
+    },
+    {
+      "key": "配置中心",
+      "name": "🏬配置中心",
+      "type": 3,
+      "api": "csp_Config",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json"
+    },
+     {
+      "key": "应用商店",
+      "name": "🏫应用商店",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/yysd.json",
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/lxhfans应用市场.jar"
+    },
+   {
+      "key": "玩偶哥哥PG",
+      "name": "玩偶┃PG",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$https://api.wogg.xyz/$$$null$$$1",
+      "timeout": 60
+    },
+    {
+      "key": "玩偶表哥PG",
+      "name": "玩偶┃BG",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$https://wobge.run.goorm.io$$$1",
+      "timeout": 60
+    },
+   {
+      "key": "Wogg",
+      "name": "玩偶┃PB",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "api": "csp_Wogg",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/"
+    },
+    {
+      "key": "Wobg",
+      "name": "玩偶┃BP",
+      "type": 3,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "api": "csp_Wobg",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd$$$http://wobge.run.goorm.io"
+    },
+    {
+      "key": "玩偶OG",
+      "name": "玩偶┃OG",
+      "type": 3,
+      "api": "csp_XYQHikerAL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/jar/jar.php?id=ou;md5;59a98ed1869e26027a3ff8d6070003f8",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/gg.json"
+    },
+   {
+      "key": "Wogg1",
+      "name": "玩偶┃GG",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt",
+        "filter": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/wogg.json",
+        "danmu": false
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+            "key": "csp_WoGG1",
+            "name": "玩偶┃FS",
+            "type": 3,
+            "api": "csp_WoGG",
+            "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/fan.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/"
+    },
+    {
+      "key": "csp_WoGG2",
+      "name": "玩偶┃XM",
+      "type": 3,
+      "api": "csp_WoGG",
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/uyv0t678c488189af47bb91dc108484d17431;md5;8a3584c3608a5412fb02a769ab3886bb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/"
+    },
+    {
+            "key": "csp_XYQHikerAL",
+            "name": "玩偶┃HK",
+            "type": 3,
+            "api": "csp_XYQHikerAL",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xyq.jar",
+            "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/玩偶哥哥.json"
+    },
+   {
+      "key": "初见表哥",
+      "name": "玩偶┃BZ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/表哥.jar;md5;0ab5d5c3db5f5d26ea4f44d2278b87ac",
+      "ext": {
+        "二次截取": "1&&-1+module-item-cover",
+        "数组": "module-item-pic&&module-item-cover",
+        "副标题": "module-item-text*>&&<",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "简介": "剧情：&&</div>",
+        "搜索url": "http://www.214728327.xyz:56708/index.php/vodsearch/-------------.html?wd={wd}",
+        "分类url": "http://www.214728327.xyz:56708/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/letter/{letter}/year/{year}/page/{catePg}.html;;阿里",
+        "阿里token": "http://127.0.0.1:9978/file/XYQTVBox/alitoken.txt",
+        "分类": "电影$1#剧集$2#综艺$4#动漫$3#短剧$5#音乐$6"
+      }
+    },
+    {
+     "key": "csp_WoGG3",
+     "name": "玩偶┃BY",
+     "type": 3,
+     "style": {
+       "type": "rect",
+       "ratio": 0.8
+     },
+     "api": "csp_WoGG",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 1,
+     "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/rski.js",
+     "ext": "7984abb3f03c447196459eebd03eda63" 
+    },
+    {
+      "key": "玩偶弹幕版",
+      "name": "玩偶┃DM",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt",
+        "filter": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/wogg.json",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+            "key": "csp_woggcli",
+            "name": "玩偶┃T4",
+            "type": 4,
+            "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt"
+    },
+    {
+            "key": "小纸条_cli",
+            "name": "纸条┃T4 ",
+            "type": 4,
+            "api": "http://home.jundie.top:9520/spider/cli_gitCafe",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt",
+            "timeout": 30
+    },
+    {
+      "key": "Gitcafe",
+      "name": "咖咖┃4K",
+      "type": 3,
+      "api": "csp_Paper",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/HeChengChaXiu.jar",
+      "ext": "b4242bebe6f144d3aa6a2cd842ac65aa"
+    },
+    {
+      "key": "影巢",
+      "name": "巢巢┃4K",
+      "type": 3,
+      "api": "csp_Hdhive",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xry.jar",
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt"
+    },
+    {
+     "key": "csp_XBPQ_6V",
+     "name": "宝宝┃4K",
+     "type": 3,
+     "api": "csp_XBPQ",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 1,
+     "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/vip.jar",
+     "ext":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/6Vip.json"
+    },
+    { 
+      "key": "csp_XYQHiker_‍dyx", 
+      "name": "盒盒┃4K", 
+      "type": 3, 
+      "api": "csp_XYQHiker", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/spider.txt",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/dyg.json"    
+    }, 
+    { 
+      "key": "csp_XYQHikerlg4k", 
+      "name": "云云┃4K", 
+      "type": 3, 
+      "api": "csp_XYQHiker", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/spider.txt",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/4KHDR.json"     
+    }, 
+    { 
+      "key": "csp_XYQHiker4klg", 
+      "name": "盘盘┃4K", 
+      "type": 3, 
+      "api": "csp_XYQHiker", 
+      "searchable": 1, 
+      "quickSearch": 1, 
+      "filterable": 1, 
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/spider.txt",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/中国蓝光网.json"  
+    },
+ {
+      "key": "团长影视",
+      "name": "团长┃网盘",
+      "type": 3,
+      "api": "csp_TZFile",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送$$$null$$$1",
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "校长影视",
+      "name": "校长┃网盘",
+      "type": 3,
+      "api": "csp_XiaoZhang",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$null$$$1",
+      "timeout": 60
+    },
+    {
+      "key": "4KHDR网盘",
+      "name": "四开┃网盘",
+      "type": 3,
+      "api": "csp_FourKHDR",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$https://www.qiqiguai.cn/tv/1/乐享汇/lib/4khdr.txt$$$1",
+      "timeout": 60
+    },
+    {
+      "key": "xb6v磁力",
+      "name": "六维┃网盘",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$http://www.xb6v.com$$$null$$$1",
+      "timeout": 60
+    },
+    {
+      "key": "影巢网盘",
+      "name": "影巢┃网盘",
+      "type": 3,
+      "api": "csp_Hdhive",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$null$$$1",
+      "timeout": 60
+    },
+   {
+      "key": "sohu",
+      "name": "搜搜┃(官)",
+      "type": 1,
+      "api": "http://tvbox-1-g5221611.deta.app/vod/sohu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playUrl": "json:http://110.42.2.247:880/analysis/json/?uid=2449&my=acfgikquvzFGJRW459&url="
+    },  
+    {
+     "key":"SG",
+     "name":"狗狗┃(官)",
+     "type":3,
+     "api":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/drpy2.min.js",
+     "ext":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/caigou.js"
+    },
+    {
+      "key": "drpy_js_360影视",
+      "name": "360┃(官)",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/man.js",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/360.js"
+    },
+    {
+      "key": "drpy_js_奇珍异兽",
+      "name": "爱爱┃(官)",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/man.js",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/爱奇艺.js"
+    },
+    {
+      "key": "drpy_js_优酷",
+      "name": "优优┃(官)",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/man.js",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/优酷.js"
+    },
+    {
+      "key": "drpy_js_腾云驾雾",
+      "name": "腾腾┃(官)",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/man.js",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/腾讯.js"
+    },
+    {
+      "key": "drpy_js_百忙无果",
+      "name": "芒芒┃(官)",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/man.js",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/芒果.js"
+    },
+   
+  
+#云盘搜索
+
+  
+    {
+      "key":"易搜",
+      "name":"易搜┃🍭",
+      "type":3,
+      "api":"csp_YiSo",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/fm.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":0,
+      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key":"云搜",
+      "name":"云搜┃🍭",
+      "type":3,
+      "api":"csp_UpYun",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/fm.jar",
+      "searchable":1,
+      "quickSearch":1,
+      "filterable":1,
+      "changeable":0,
+      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    }, 
+    {
+      "key":"盘搜",
+      "name":"盘搜┃🍭",
+      "type":3,
+      "api":"csp_PanSearch",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/fm.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":0,
+      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key":"纸条",
+      "name":"纸条┃🍭",
+      "type":3,
+      "api":"csp_XiaoZhiTiao",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/fm.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":0,
+      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "csp_Yisou",
+      "name": "易搜HK┃🍭",
+      "type": 3,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xyq.jar",
+      "api": "csp_Yisou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "csp_Upyunso",
+      "name": "云搜HK┃🍭",
+      "type": 3,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xyq.jar",
+      "api": "csp_Upyunso",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "csp_AliPS1",
+      "name": "盘搜HK┃🍭",
+      "type": 3,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xyq.jar",
+      "api": "csp_AliPS",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "Gitcafe1",
+      "name": "纸条HK┃🍭",
+      "type": 3,
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/xyq.jar",
+      "api": "csp_Gitcafe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+   {
+      "key": "易搜XB",
+      "name": "易搜PG┃🍭",
+      "type": 3,
+      "api": "csp_YiSo",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json$$$satoken=1aee2366-2ff4-4436-b321-a14db23e8294",
+      "timeout": 60
+    },
+    {
+      "key": "小云",
+      "name": "云搜PG┃🍭",
+      "type": 3,
+      "api": "csp_YunSo",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "盘搜索",
+      "name": "盘搜PG┃🍭",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "小纸条XB",
+      "name": "纸条PG┃🍭",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "易搜弹幕版",
+      "name": "易搜DM┃🍭",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+      "key": "盘Se弹幕版",
+      "name": "云搜DM┃🍭",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+      "key": "盘搜弹幕版",
+      "name": "盘搜DM┃🍭",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+      "key": "纸条弹幕版",
+      "name": "纸条DM┃🍭",
+      "type": 3,
+      "api": "csp_XiaoZhiTiao",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+   {
+      "key":"七夜",
+      "name":"七夜┃🍭",
+      "type":3,
+      "api":"csp_Dovx",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/fm.jar",
+      "searchable":1,
+      "filterable":1,
+      "changeable":0,
+      "ext":"http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+    {
+      "key": "七夜XB",
+      "name": "七夜PG┃🍭",
+      "type": 3,
+      "api": "csp_Dovx",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "七夜弹幕版",
+      "name": "七夜DM┃🍭",
+      "type": 3,
+      "api": "csp_Dovx",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd",
+        "danmu": true
+      },
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/danmu.jar"
+    },
+    {
+      "key": "csp_AliPS",
+      "name": "资源HK┃🍭",
+      "type": 3,
+      "api": "csp_AliPS",
+      "jar": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/lxhfans1.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/lxhfans/token.txt+4k|auto|fhd"
+    },
+   {
+      "key": "云盘资源",
+      "name": "云盘┃🍭",
+      "type": 3,
+      "api": "csp_YunPanOne",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "Up搜XB",
+      "name": "UP盘┃🍭",
+      "type": 3,
+      "api": "csp_UpYun",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "喵狸",
+      "name": "喵狸┃🍭",
+      "type": 3,
+      "api": "csp_PanSou",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+  {
+      "key": "路飞磁力",
+      "name": "路飞┃🍭",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/lf_p2p2_min.js",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "ext": "",
+      "timeout": 60
+    },
+    {
+      "key": "夸克盘搜",
+      "name": "夸克┃🍭",
+      "type": 3,
+      "api": "csp_QuarkPanSo",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "爱盘搜",
+      "name": "爱盘┃🍭",
+      "type": 3,
+      "api": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/drpy2.min.js",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/aipanso.js",
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "趣盘搜",
+      "name": "趣盘┃🍭",
+      "type": 3,
+      "api": "csp_Funletu",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "changeable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "timeout": 60
+    },
+    {
+      "key": "push_agent",
+      "name": "🎥影视┃推送",
+      "type": 3,
+      "api": "csp_Push",
+      "jar":"https://www.qiqiguai.cn/tv/1/乐享汇/lib/pg.jar",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://www.qiqiguai.cn/tv/1/乐享汇/lib/PG推送.json",
+      "timeout": 60
+    },
+    {
+      "key": "cc1",
+      "name": "🍀🍁关注公众号",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc2",
+      "name": "『乐享汇fans』",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc3",
+      "name": "『乐享生活fans』",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "cc4",
+      "name": "12.19维护更新🍁🍀",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    }
+],
+"parses":[
+        {"name": "关注","type":3,"url":"Demo"},
+        {"name": "公众号","type":2,"url":"Sequence"},
+        {"name": "QQ频道","type": 3,"url": "Web"},
+        {"name": "『乐享汇fans』","type": 2,"url": "Parallel"}, 
+        {"name": "『乐享生活fans』","type": 1,"url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="},
+        {"name": "可可","type":0,"url":"https://www.ecmys.com/player/art.php?url="},
+        {"name": "七七","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+        {"name": "玖玖","type": 0,"url": "https://jx.jsonplayer.com/player/?url="},
+        {"name": "彩彩","type":1,"url":"http://42.157.129.144:2323/CH/caihong_1993138546.php?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili","youku"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+        {"name": "云云","type":1,"url":"https://api.tyun77.cn/api.php/provide/parseDicturl?url=","ext":{"flag":["imgv","migu","qq","qiyi","mgtv","bilibili"],"header":{"User-Agent":"okhttp/3.12.0"}}},
+        {"name": "米米","type":1,"url":"https://daina.hk/api/?key=e1e84ecae847b6e4a1a27fd4611f45f5&url="},
+        {"name": "巧巧","type":1,"url":"https://www.qiaoji8.com/tvbox/neibu.php?url=","ext":{"flag":["XAL","xinvip"]}},
+        {"name": "乐乐","type":1,"url":"http://103.42.31.123:5821/jx/?url="},
+        {"name": "途途","type":0,"url":"https://jx.yangtu.top/?url="},
+        {"name": "星星","type":0,"url":"https://jx.xmflv.com/?url="},
+        {"name": "夜夜","type":0,"url":"https://www.yemu.xyz/?url="}     
+        ],
+
+
+"flags":
+["youku","qq","QQ","iqiyi","qiqi","qiyi","letv","sohu","tudou","pptv","PPTV","mgtv","ltnb","rx","SLYS4k","FEI","XAL","QEYSS","aliyun","AliS","ddzy","kuying-zj","xfyun","wuduzy","wasu","bilibili","renrenmi","haiwaikan","cool","tnmb","xigua","m1905","funshion","imgo","ruyi1080","ruyib1080","juquan4k","tucheng","yzm","seven","caihong","YuMi-vip"],
+
+
+"rules":[
+{"name":"量子","hosts":["vip.lz","hd.lz","v.cdnlz","v.cdnlz1"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"暴风","hosts":["bfzy","s1.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"蜗牛","hosts":["vip.123pan.cn","rescdn.wuxivlog.cn"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"索尼","hosts":["snzycdn","suonizy"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8.333333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"沿途","hosts":["jx.yangtu.top"],"regex":["download4.caiyun.feixin.10086.cn","/servlet/"]},
+{"name":"火山","hosts":["huoshan.com"],"regex":["item_id="]},
+{"name":"抖音",hosts":["douyin.com"],"regex":["is_play_url="]}],
+
+"ijk":[
+{"group":"软解码","options":[
+{"category":4,"name":"opensles","value":"0"},
+{"category":4,"name":"overlay-format","value":"842225234"},
+{"category":4,"name":"framedrop","value":"1"},
+{"category":4,"name":"soundtouch","value":"1"},
+{"category":4,"name":"start-on-prepared","value":"1"},
+{"category":1,"name":"http-detect-range-support","value":"0"},
+{"category":1,"name":"fflags","value":"fastseek"},
+{"category":2,"name":"skip_loop_filter","value":"48"},
+{"category":4,"name":"reconnect","value":"1"},
+{"category":4,"name":"enable-accurate-seek","value":"0"},
+{"category":4,"name":"mediacodec","value":"0"},
+{"category":4,"name":"mediacodec-auto-rotate","value":"0"},
+{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},
+{"category":4,"name":"mediacodec-hevc","value":"0"},
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}
+]},
+{"group":"硬解码","options":[
+{"category":4,"name":"opensles","value":"0"},
+{"category":4,"name":"overlay-format","value":"842225234"},
+{"category":4,"name":"framedrop","value":"1"},
+{"category":4,"name":"soundtouch","value":"1"},
+{"category":4,"name":"start-on-prepared","value":"1"},
+{"category":1,"name":"http-detect-range-support","value":"0"},
+{"category":1,"name":"fflags","value":"fastseek"},
+{"category":2,"name":"skip_loop_filter","value":"48"},
+{"category":4,"name":"reconnect","value":"1"},
+{"category":4,"name":"enable-accurate-seek","value":"0"},
+{"category":4,"name":"mediacodec","value":"1"},
+{"category":4,"name":"mediacodec-auto-rotate","value":"1"},
+{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
+{"category":4,"name":"mediacodec-hevc","value":"1"},
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}
+]}],
+
+"doh":[
+{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
+{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
+{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
+{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
+
+"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com","https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"]
+}
