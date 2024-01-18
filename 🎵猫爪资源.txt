@@ -1,8 +1,8 @@
 {
     "spider": "http://yydf.540734621.xyz/yydf/yydf/bd/watson/f.jar;md5;60d5e47e1bbfa645ee6fb5aa561eee28",
     "sites": [
-        {"key":"格斗","name":"🥊格斗","type":3,"api":"https://agit.ai/CT/XYQ/raw/branch/master/cat/ufc_open.js"},
-        {"key":"格斗2","name":"🥊格斗2","type":3,"api":"https://agit.ai/2011820123/tvbox/raw/branch/master/ufc.js"},
+        {"key":"格斗","name":"🥊格斗","type":3,"api":"https://agit.ai/CT/XYQ/raw/branch/master/drpy_js/libs/drpy2.min.js","ext":"https://agit.ai/CT/XYQ/raw/branch/master/cat/ufc_open.js"},
+        {"key":"格斗2","name":"🥊格斗2","type":3,"api": "http://yydf.540734621.xyz/yydf/yydf/bd/watson/lib/drpy2.min.js",,"ext":"https://agit.ai/2011820123/tvbox/raw/branch/master/ufc.js"},
         {
             "key": "drpy_js_荐片",
             "name": "影视 | 荐片[js]",
