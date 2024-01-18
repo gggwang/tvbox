@@ -1,0 +1,305 @@
+{
+    "spider": "https://bjson.cf/XBPQ.jar",
+    "lives": [
+        {
+            "name": "live",
+            "type": 0,
+            "url": "https://bjson.cf/tvbox/live.txt",
+            "playerType": 1,
+            "epg": "https://diyp2.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://diyp2.112114.xyz/logo/{name}.png",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        }
+    ],
+  "sites": [
+    {
+    "key": "drpy_js_豆瓣",
+    "name": "🍥┃豆瓣榜单┃请给APP存储权限🍥",
+    "type": 3,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/douban.js"
+    },
+    {
+    "key":"csp_KungFu404",
+    "name":"🍥┃阿里云盘登录┃请给APP存储权限🍥",
+    "type":3,
+    "api":"csp_KungFu404",
+    "searchable":1,
+    "filterable":0,
+    "changeable":0,
+    "jar":"https://bjson.cf/alibaba.jar"
+    },
+    {
+    "key":"csp_Wogg",
+    "name":"┃阿里云盘┃请勿相信视频内广告",
+    "type":3,
+    "api":"csp_Wogg",
+    "playerType": 2,
+    "searchable":1,
+    "quickSearch":1,
+    "changeable":1,
+    "ext":"http://jxjson.cf/tvbox/PG推送.json$$$https://wogg.xyz/$$$null$$$1",
+    "timeout":30,
+    "jar":"https://bjson.cf/pgali.jar"
+    },
+    {
+    "key": "drpy_js_素白影视",
+    "name": "┃素白影视┃请勿相信视频内广告",
+    "type": 3,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/素白影视.js"
+    },
+    {
+    "key": "drpy_js_低端",
+    "name": "┃低端影视┃请勿相信视频内广告",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/低端.js"
+    },
+    {
+    "key": "drpy_js_腾讯",
+    "name": "┃腾讯视频┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/腾讯.js"
+    },
+    {
+    "key": "drpy_js_芒果",
+    "name": "┃芒果TV┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/芒果.js"
+    },
+    {
+    "key": "drpy_js_优酷",
+    "name": "┃优酷视频┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/优酷.js"
+    },
+    {
+    "key": "drpy_js_爱奇艺",
+    "name": "┃爱奇艺┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/爱奇艺.js"
+    },
+    {
+    "key": "drpy_js_搜狗视频",
+    "name": "┃搜狗视频┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/搜狗视频.js"
+    },
+    {
+    "key": "drpy_js_360",
+    "name": "┃360视频┃[官网]",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/360.js"
+    },
+    {
+    "key": "drpy_js_路漫漫影视",
+    "name": "┃动漫影视┃请勿相信视频内广告",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/路漫漫.js"
+    },
+    {
+    "key": "drpy_js_NyaFun动漫",
+    "name": "┃番剧影视┃请勿相信视频内广告",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/NyaFun动漫.js"
+    },
+    {
+    "key": "drpy_js_厂长影视",
+    "name": "┃厂长影视┃请勿相信视频内广告",
+    "type": 3,
+    "playerType": 2,
+    "api": "https://bjson.cf/tvbox/drpymin.js",
+    "ext": "https://bjson.cf/tvbox/厂长.js"
+    },
+    {
+    "key":"Bdys_spider",
+    "name":"┃哔滴影视┃请勿相信视频内广告",
+    "api":"csp_Bdys01",
+    "type":3,
+    "filterable":1,
+    "quickSearch":1,
+    "searchable":1,
+    "ext":"https://www.bdys10.com/$$$null$$$1",
+    "playerType": 1,
+    "timeout":30,
+    "jar":"https://bjson.cf/pgali.jar"
+    },
+    {
+    "key":"csp_HunHePan",
+    "name":"┃阿里混合┃请勿相信视频内广告",
+    "type":3,
+    "api":"csp_HunHePan",
+    "searchable":1,
+    "quickSearch":1,
+    "changeable":1,
+    "filterable":0,
+    "timeout":60,
+    "ext":"http://bjson.cf/tvbox/PG推送.json$$$null$$$1",
+    "jar":"https://bjson.cf/pgali.jar"
+    },
+    {
+    "key":"csp_YunSou",
+    "name":"┃阿里云搜┃请勿相信视频内广告",
+    "type":3,
+    "api":"csp_UpYun",
+    "ext":"http://127.0.0.1:9978/file/tvbox/tok.txt",
+    "timeout":30,
+    "jar":"https://bjson.cf/pgali.jar"
+    },
+    {
+    "key":"drpy_js_虎牙",
+    "name":"🐅┃虎牙┃直播",
+    "type":3,
+    "api":"https://bjson.cf/tvbox/drpymin.js",
+    "ext":"https://bjson.cf/tvbox/虎牙直播.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0
+    },
+    {
+    "key":"drpy_js_斗鱼",
+    "name":"🐟┃斗鱼┃直播",
+    "type":3,
+    "api":"https://bjson.cf/tvbox/drpymin.js",
+    "ext":"https://bjson.cf/tvbox/斗鱼直播.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0
+    },
+    {
+    "key":"drpy_js_有声小说",
+    "name":"🎧┃有声┃小说",
+    "type":3,
+    "api":"https://bjson.cf/tvbox/drpymin.js",
+    "ext":"https://agit.ai/fantaiying/dr_py/raw/branch/main/js/有声小说吧.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "changeable":0
+    },
+    {
+    "key":"drpy_js_酷狗MV",
+    "name":"📺┃酷狗┃音乐MV",
+    "type":3,
+    "api":"https://bjson.cf/tvbox/drpymin.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0,
+    "ext": "https://bjson.cf/tvbox/酷狗MV.js"
+    },
+    {
+    "key":"drpy_js_短视频",
+    "name":"📺┃聚合┃短视频",
+    "type":3,
+    "api":"https://bjson.cf/tvbox/drpymin.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0,
+    "ext":"https://bjson.cf/tvbox/短视频.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "左岸接口",
+      "type": 0,
+      "url": "https://jx.jsonplayer.com/player/?url=",
+      "header":{
+      "User-Agent": "okhttp/4.9.3"
+    }
+    },
+    {
+      "name": "巴拉接口",
+      "type": 1,
+      "url": "https://jxjson.cf/ads.php?url=",
+      "header":{
+      "User-Agent":"okhttp/4.1.0"
+    }
+    }
+  ],
+"rules": [
+        {
+            "host": "*",
+            "rule": [
+                "video/tos"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "obj/tos"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "video/mp4"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "video_mp4"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "qunliao.info"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "douyin.com/aweme",
+                "video_id="
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "huoshan.com",
+                "/item/video/"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "http((?!http).){12,}?\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)\\?.*"
+            ]
+        },
+        {
+            "host": "*",
+            "rule": [
+                "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"
+            ]
+        }
+    ],
+"flags":["youku","优酷","优 酷","优酷视频", "qq","腾讯","腾 讯","腾讯视频", "iqiyi", "qiyi","奇艺","爱奇艺","爱 奇 艺", "m1905", "xigua", "letv","leshi","乐视","乐 视", "sohu","搜狐","搜 狐","搜狐视频", "tudou", "pptv", "mgtv","芒果","imgo","芒果TV","芒 果 T V", "bilibili","哔 哩","哔 哩 哔 哩"]
+}
