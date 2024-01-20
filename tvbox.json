@@ -2,19 +2,19 @@
     "storeHouse": [
         {
             "sourceName": "🎯地瓜妹妹🎯主仓",
-            "sourceUrl": "https://agit.ai/2011820123/tvbox/raw/branch/master/🎯地瓜妹妹🎯主仓.json"
+            "sourceUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/tvbox/master/🎯地瓜妹妹🎯主仓.json"
         },
         {
             "sourceName": "🎯地瓜妹妹🎯备用仓1",
-            "sourceUrl": "https://agit.ai/2011820123/tvbox/raw/branch/master/🎯地瓜妹妹🎯备用仓1.json"
+            "sourceUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/tvbox/master/🎯地瓜妹妹🎯备用仓1.json"
         },
         {
             "sourceName": "🎯地瓜妹妹🎯备用仓2",
-            "sourceUrl": "https://agit.ai/2011820123/tvbox/raw/branch/master/🎯地瓜妹妹🎯备用仓2.json"
+            "sourceUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/tvbox/master/🎯地瓜妹妹🎯备用仓2.json"
         },
         {
             "sourceName": "🎯地瓜妹妹🎯福利仓",
-            "sourceUrl": "https://agit.ai/2011820123/tvbox/raw/branch/master/🎯地瓜妹妹🎯福利仓.json"
+            "sourceUrl": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/gggwang/tvbox/master/🎯地瓜妹妹🎯福利仓.json"
         }
     ]
 }
